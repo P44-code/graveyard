@@ -7,7 +7,7 @@
 // Model constant & base URL
 export const OLLAMA_MODEL = 'gemma3:4b';
 export const OLLAMA_ENDPOINT = 'http://localhost:11434/api/generate';
-export const OLLAMA_TIMEOUT_MS = 60000;
+export const OLLAMA_TIMEOUT_MS = 300000;
 
 /**
  * Base Adapter Contract
